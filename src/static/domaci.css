@@ -1,0 +1,19 @@
+#tabela{
+    width: 90%;
+    margin: 10px auto;
+    font-size: 17px;
+    text-align: center;
+}
+
+#tabela th{
+    background: lightblue;
+    color: white;
+}
+
+#tabela tr:nth-child(even){
+    background: #83d6f7;
+}
+
+#tabela tr:nth-child(odd){
+    background: #b5eaff;
+}
